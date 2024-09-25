@@ -13,6 +13,7 @@ import {DisplaynameComponent} from "./components/displayname/displayname.compone
 import {UserageComponent} from "./components/userage/userage.component";
 import {UsergreetingComponent} from "./components/usergreeting/usergreeting.component";
 import {CalculatorComponent} from "./components/calculator/calculator.component";
+import {TextlengthComponent} from "./components/textlength/textlength.component";
 
 
 const routes: Routes = [
@@ -24,6 +25,7 @@ const routes: Routes = [
   {path: 'userage',  component:UserageComponent},
   {path: 'usergreeting',  component:UsergreetingComponent},
   {path: 'calculator',  component:CalculatorComponent},
+  {path: 'textlength',  component:TextlengthComponent},
 
 ]
 
@@ -45,7 +47,8 @@ const routes: Routes = [
     DisplaynameComponent,
     UserageComponent,
     UsergreetingComponent,
-    CalculatorComponent
+    CalculatorComponent,
+    TextlengthComponent,
 
   ],
 
