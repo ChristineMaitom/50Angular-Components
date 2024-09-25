@@ -26,7 +26,7 @@ import {BookmarklistComponent} from "./components/bookmarklist/bookmarklist.comp
 import {CharactercounterComponent} from "./components/charactercounter/charactercounter.component";
 import {PalindromecheckerComponent} from "./components/palindromechecker/palindromechecker.component";
 import {TemperatureConverterComponent} from "./components/temperatureconverter/temperatureconverter.component";
-
+import {ShoppingListComponent} from "./components/shoppinglist/shoppinglist.component";
 
 const routes: Routes = [
   {path: '',  component:DisplayhelloworldComponent},
@@ -50,6 +50,7 @@ const routes: Routes = [
   {path: 'charactercounter',  component:CharactercounterComponent},
   {path: 'palindromechecker',  component:PalindromecheckerComponent},
   {path: 'temperatureconverter',  component:TemperatureConverterComponent},
+  {path: 'shoppinglist',  component:ShoppingListComponent},
 
 ]
 
@@ -83,7 +84,8 @@ const routes: Routes = [
     BookmarklistComponent,
     CharactercounterComponent,
     PalindromecheckerComponent,
-    TemperatureConverterComponent
+    TemperatureConverterComponent,
+    ShoppingListComponent,
 
   ],
 
