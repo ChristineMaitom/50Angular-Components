@@ -24,6 +24,7 @@ import {SimpleloginComponent} from "./components/simplelogin/simplelogin.compone
 import {FahrenheittocelsiusComponent} from "./components/fahrenheittocelsius/fahrenheittocelsius.component";
 import {BookmarklistComponent} from "./components/bookmarklist/bookmarklist.component";
 import {CharactercounterComponent} from "./components/charactercounter/charactercounter.component";
+import {PalindromecheckerComponent} from "./components/palindromechecker/palindromechecker.component";
 
 
 const routes: Routes = [
@@ -46,6 +47,8 @@ const routes: Routes = [
   {path: 'fahrenheittocelsius',  component:FahrenheittocelsiusComponent},
   {path: 'bookmarklist',  component:BookmarklistComponent},
   {path: 'charactercounter',  component:CharactercounterComponent},
+  {path: 'palindromechecker',  component:PalindromecheckerComponent},
+
 
 ]
 
@@ -78,6 +81,8 @@ const routes: Routes = [
     FahrenheittocelsiusComponent,
     BookmarklistComponent,
     CharactercounterComponent,
+    PalindromecheckerComponent,
+
   ],
 
   providers: [
