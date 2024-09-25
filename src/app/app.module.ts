@@ -7,13 +7,13 @@ import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { FormsModule } from "@angular/forms";
 import {DisplayhelloworldComponent} from "./components/displayhelloworld/displayhelloworld.component";
 import {ShowhellobuttonComponent} from "./components/showhellobutton/showhellobutton.component";
-
+import{CounterComponent} from "./components/counter/counter.component";
 
 
 const routes: Routes = [
   {path: '',  component:DisplayhelloworldComponent},
   {path: 'showhellobutton',  component:ShowhellobuttonComponent},
-
+  {path: 'counter',  component:CounterComponent},
 
 ]
 
@@ -30,7 +30,7 @@ const routes: Routes = [
     AppComponent,
     DisplayhelloworldComponent,
     ShowhellobuttonComponent,
-
+    CounterComponent
 
 
   ],
