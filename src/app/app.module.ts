@@ -42,6 +42,7 @@ import {CompoundInterestCalculatorComponent} from "./components/compoundinterest
 import {FibonacciGeneratorComponent} from "./components/fibonaccigenerator/fibonaccigenerator.component";
 import {OddSumCalculatorComponent} from "./components/oddsumcalculator/oddsumcalculator.component";
 import {CurrencyFormatterComponent} from "./components/currencyformatter/currencyformatter.component";
+import {RandomQuoteDisplayComponent} from "./components/randomquotedisplay/randomquotedisplay.component";
 
 
 const routes: Routes = [
@@ -82,6 +83,7 @@ const routes: Routes = [
   {path: 'fibonaccigenerator',  component:FibonacciGeneratorComponent},
   {path: 'oddsumcalculator',  component:OddSumCalculatorComponent},
   {path: 'currencyformatter',  component:CurrencyFormatterComponent},
+  {path: 'randomquotedisplay',  component:RandomQuoteDisplayComponent},
 
 
 ]
@@ -133,7 +135,7 @@ const routes: Routes = [
     FibonacciGeneratorComponent,
     OddSumCalculatorComponent,
     CurrencyFormatterComponent,
-
+    RandomQuoteDisplayComponent,
 
 
   ],
