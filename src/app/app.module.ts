@@ -53,6 +53,7 @@ import {PasswordStrengthCheckerComponent} from "./components/passwordstrengthche
 import {CreatingbracketComponent} from "./components/creatingbracket/creatingbracket.component";
 import {DailyjournalComponent} from "./components/dailyjournal/dailyjournal.component";
 import {CheckmbpsComponent} from "./components/checkmbps/checkmbps.component";
+import {BooleancheckerComponent} from "./components/booleanchecker/booleanchecker.component";
 
 
 const routes: Routes = [
@@ -103,6 +104,8 @@ const routes: Routes = [
   {path: 'creatingbracket',  component:CreatingbracketComponent},
   {path: 'dailyjournal',  component:DailyjournalComponent},
   {path: 'checkmbps',  component:CheckmbpsComponent},
+  {path: 'booleanchecker',  component:BooleancheckerComponent},
+
 
 ]
 
@@ -164,6 +167,7 @@ const routes: Routes = [
     CreatingbracketComponent,
     DailyjournalComponent,
     CheckmbpsComponent,
+    BooleancheckerComponent,
 
 
   ],
