@@ -47,6 +47,7 @@ import {UppercaseGreetingComponent} from "./components/uppercasegreeting/upperca
 import {DivisibleCheckerComponent} from "./components/divisiblechecker/divisiblechecker.component";
 import {LetterReplacerComponent} from "./components/letterreplacer/letterreplacer.component";
 import {CountdowntimerComponent} from "./components/countdowntimer/countdowntimer.component";
+import {UnitconverterComponent} from "./components/unitconverter/unitconverter.component";
 
 
 const routes: Routes = [
@@ -91,6 +92,7 @@ const routes: Routes = [
   {path: 'uppercasegreeting',  component:UppercaseGreetingComponent},
   {path: 'letterreplacer',  component:LetterReplacerComponent},
   {path: 'countdowntimer',  component:CountdowntimerComponent},
+  {path: 'unitconverter',  component:UnitconverterComponent},
 
 
 ]
@@ -147,6 +149,8 @@ const routes: Routes = [
     DivisibleCheckerComponent,
     LetterReplacerComponent,
     CountdowntimerComponent,
+    UnitconverterComponent,
+
 
   ],
 
