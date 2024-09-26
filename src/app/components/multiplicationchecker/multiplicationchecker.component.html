@@ -1,0 +1,22 @@
+<div class="multiplication-checker-container">
+  <h2>Multiplication Checker</h2>
+
+  <input
+    [(ngModel)]="firstNumber"
+    type="number"
+    placeholder="Enter the first number"
+    min="0"
+    required
+  />
+  <input
+    [(ngModel)]="secondNumber"
+    type="number"
+    placeholder="Enter the second number"
+    min="0"
+    required
+  />
+
+  <button (click)="checkIfMultiple()" [disabled]="!firstNumber || !secondNumber">Check</button>
+
+  <p *ngIf="resultMessage">{{ resultMessage }}</p>
+</div>
