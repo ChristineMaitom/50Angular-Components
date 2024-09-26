@@ -46,6 +46,7 @@ import {RandomQuoteDisplayComponent} from "./components/randomquotedisplay/rando
 import {UppercaseGreetingComponent} from "./components/uppercasegreeting/uppercasegreeting.component";
 import {DivisibleCheckerComponent} from "./components/divisiblechecker/divisiblechecker.component";
 import {LetterReplacerComponent} from "./components/letterreplacer/letterreplacer.component";
+import {CountdowntimerComponent} from "./components/countdowntimer/countdowntimer.component";
 
 
 const routes: Routes = [
@@ -89,7 +90,7 @@ const routes: Routes = [
   {path: 'randomquotedisplay',  component:RandomQuoteDisplayComponent},
   {path: 'uppercasegreeting',  component:UppercaseGreetingComponent},
   {path: 'letterreplacer',  component:LetterReplacerComponent},
-
+  {path: 'countdowntimer',  component:CountdowntimerComponent},
 
 
 ]
@@ -145,7 +146,7 @@ const routes: Routes = [
     UppercaseGreetingComponent,
     DivisibleCheckerComponent,
     LetterReplacerComponent,
-
+    CountdowntimerComponent,
 
   ],
 
