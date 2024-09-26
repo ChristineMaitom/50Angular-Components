@@ -50,6 +50,7 @@ import {CountdowntimerComponent} from "./components/countdowntimer/countdowntime
 import {UnitconverterComponent} from "./components/unitconverter/unitconverter.component";
 import {DicerollerComponent} from "./components/diceroller/diceroller.component";
 import {PasswordStrengthCheckerComponent} from "./components/passwordstrengthchecker/passwordstrengthchecker.component";
+import {CreatingbracketComponent} from "./components/creatingbracket/creatingbracket.component";
 
 const routes: Routes = [
   {path: '',  component:DisplayhelloworldComponent},
@@ -96,7 +97,7 @@ const routes: Routes = [
   {path: 'unitconverter',  component:UnitconverterComponent},
   {path: 'diceroller',  component:DicerollerComponent},
   {path: 'passwordstrengthchecker',  component:PasswordStrengthCheckerComponent},
-
+  {path: 'creatingbracket',  component:CreatingbracketComponent},
 
 
 
@@ -157,7 +158,7 @@ const routes: Routes = [
     UnitconverterComponent,
     DicerollerComponent,
     PasswordStrengthCheckerComponent,
-
+    CreatingbracketComponent,
 
 
   ],
