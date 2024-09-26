@@ -54,6 +54,7 @@ import {CreatingbracketComponent} from "./components/creatingbracket/creatingbra
 import {DailyjournalComponent} from "./components/dailyjournal/dailyjournal.component";
 import {CheckmbpsComponent} from "./components/checkmbps/checkmbps.component";
 import {BooleancheckerComponent} from "./components/booleanchecker/booleanchecker.component";
+import {DowhileloopComponent} from "./components/dowhileloop/dowhileloop.component";
 
 
 const routes: Routes = [
@@ -105,7 +106,7 @@ const routes: Routes = [
   {path: 'dailyjournal',  component:DailyjournalComponent},
   {path: 'checkmbps',  component:CheckmbpsComponent},
   {path: 'booleanchecker',  component:BooleancheckerComponent},
-
+  {path: 'dowhileloop',  component:DowhileloopComponent},
 
 ]
 
@@ -168,7 +169,7 @@ const routes: Routes = [
     DailyjournalComponent,
     CheckmbpsComponent,
     BooleancheckerComponent,
-
+    DowhileloopComponent,
 
   ],
 
