@@ -51,6 +51,8 @@ import {UnitconverterComponent} from "./components/unitconverter/unitconverter.c
 import {DicerollerComponent} from "./components/diceroller/diceroller.component";
 import {PasswordStrengthCheckerComponent} from "./components/passwordstrengthchecker/passwordstrengthchecker.component";
 import {CreatingbracketComponent} from "./components/creatingbracket/creatingbracket.component";
+import {DailyjournalComponent} from "./components/dailyjournal/dailyjournal.component";
+
 
 const routes: Routes = [
   {path: '',  component:DisplayhelloworldComponent},
@@ -98,7 +100,7 @@ const routes: Routes = [
   {path: 'diceroller',  component:DicerollerComponent},
   {path: 'passwordstrengthchecker',  component:PasswordStrengthCheckerComponent},
   {path: 'creatingbracket',  component:CreatingbracketComponent},
-
+  {path: 'dailyjournal',  component:DailyjournalComponent},
 
 
 ]
@@ -159,6 +161,7 @@ const routes: Routes = [
     DicerollerComponent,
     PasswordStrengthCheckerComponent,
     CreatingbracketComponent,
+    DailyjournalComponent,
 
 
   ],
