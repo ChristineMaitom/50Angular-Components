@@ -35,6 +35,7 @@ import {RandomNumberGeneratorComponent} from "./components/randomnumbergenerator
 import {MultiplicationcheckerComponent} from "./components/multiplicationchecker/multiplicationchecker.component";
 import {UppercaseConverterComponent} from "./components/uppercaseconverter/uppercaseconverter.component";
 import {WordShufflerComponent} from "./components/wordshuffler/wordshuffler.component";
+import {BMISolverComponent} from "./components/bmisolver/bmisolver.component";
 
 const routes: Routes = [
   {path: '',  component:DisplayhelloworldComponent},
@@ -67,7 +68,7 @@ const routes: Routes = [
   {path: 'multiplicationchecker',  component:MultiplicationtableComponent},
   {path: 'uppercaseconverter',  component:UppercaseConverterComponent},
   {path: 'wordshuffler',  component:WordShufflerComponent},
-
+  {path: 'bmisolver',  component:BMISolverComponent},
 
 ]
 
@@ -111,6 +112,8 @@ const routes: Routes = [
     MultiplicationcheckerComponent,
     UppercaseConverterComponent,
     WordShufflerComponent,
+    BMISolverComponent,
+
 
   ],
 
