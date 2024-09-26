@@ -49,7 +49,7 @@ import {LetterReplacerComponent} from "./components/letterreplacer/letterreplace
 import {CountdowntimerComponent} from "./components/countdowntimer/countdowntimer.component";
 import {UnitconverterComponent} from "./components/unitconverter/unitconverter.component";
 import {DicerollerComponent} from "./components/diceroller/diceroller.component";
-
+import {PasswordStrengthCheckerComponent} from "./components/passwordstrengthchecker/passwordstrengthchecker.component";
 
 const routes: Routes = [
   {path: '',  component:DisplayhelloworldComponent},
@@ -95,6 +95,10 @@ const routes: Routes = [
   {path: 'countdowntimer',  component:CountdowntimerComponent},
   {path: 'unitconverter',  component:UnitconverterComponent},
   {path: 'diceroller',  component:DicerollerComponent},
+  {path: 'passwordstrengthchecker',  component:PasswordStrengthCheckerComponent},
+
+
+
 
 ]
 
@@ -152,6 +156,8 @@ const routes: Routes = [
     CountdowntimerComponent,
     UnitconverterComponent,
     DicerollerComponent,
+    PasswordStrengthCheckerComponent,
+
 
 
   ],
